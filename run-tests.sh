@@ -2,4 +2,4 @@
 set -ex
 
 flake8 src test
-nosetests --with-coverage tests
+nosetests --with-coverage test
