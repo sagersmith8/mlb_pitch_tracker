@@ -1,0 +1,3139 @@
+[
+    {
+        "top": [
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.137937312340905, 
+                        "x": -0.17452795883203143, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.681824554204021, 
+                        "x": 1.1255348228269368, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5486782539230584, 
+                        "x": 0.05692368970737771, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.254276304557738, 
+                        "x": -1.036437664025326, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7524246327267248, 
+                        "x": -0.754886274925361, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.3916067685865485, 
+                        "x": 0.19544331434011397, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.804714021653154, 
+                        "x": 1.285222629166757, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.538184462477088, 
+                        "x": -0.12344417336721447, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.713118020840478, 
+                        "x": 0.5094985952057711, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.990701176270417, 
+                        "x": 1.2484688389625926, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.2500260490279795, 
+                        "x": 0.17578997855347467, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.539939249750541, 
+                        "x": 0.8151356485805819, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.223636513438491, 
+                        "x": 0.9374433638096447, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7649667475589066, 
+                        "x": -1.3172256610676003, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.1206336667287955, 
+                        "x": -0.18887550513540918, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.665162622092809, 
+                        "x": 0.4603907832476688, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.952746756691112, 
+                        "x": 1.0344962272920806, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.6395564403367304, 
+                        "x": -0.730283767212022, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.9838508911918673, 
+                        "x": -0.19657609010364663, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.204093962855264, 
+                        "x": -0.31421544316119054, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.530424553004473, 
+                        "x": 1.4424048251470252, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.6520445113082234, 
+                        "x": -0.9236609143499227, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.418494135798478, 
+                        "x": -0.18089230097972142, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.334702167751562, 
+                        "x": -0.5118479989803659, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3272487977249487, 
+                        "x": 0.8562860009318474, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.1810829582868028, 
+                        "x": -0.28717097154141236, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3676499815887357, 
+                        "x": -1.1150461771685896, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.880509202201172, 
+                        "x": 0.7789033930878064, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.4734940626454343, 
+                        "x": -1.3568011969751663, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8504874657742034, 
+                        "x": 0.48594999523687354, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0374398264203157, 
+                        "x": 0.2666870009138478, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.481995461932989, 
+                        "x": -1.1384173097193557, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.9598316326011798, 
+                        "x": 0.23478194603689828, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4205229022022388, 
+                        "x": -0.856057316081764, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.4598692747936166, 
+                        "x": 1.4003965131901936, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.8913823273591612, 
+                        "x": -0.6006299878814245, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0163670905060345, 
+                        "x": -0.0916954066243354, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.525253746841891, 
+                        "x": 0.5532604273887469, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.662475936737665, 
+                        "x": -1.356135747586729, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.059722556722929, 
+                        "x": 0.5373607554066431, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.409820175135204, 
+                        "x": 0.707165959218321, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.987022031142561, 
+                        "x": 1.174520313909933, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.461304342857904, 
+                        "x": 0.8536981538116186, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.908129612010891, 
+                        "x": -1.2507428296857226, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.37647522817936, 
+                        "x": -1.3807871300281778, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.7705598308291752, 
+                        "x": -0.38270590934831805, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8481700973054758, 
+                        "x": 0.9055098223218723, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.2052767650387555, 
+                        "x": 1.297305284531586, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.87588243289895, 
+                        "x": -1.4653563008908632, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4379916389539114, 
+                        "x": -1.0927615673602258, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7335326343637805, 
+                        "x": -0.5417254777889219, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.4231736295974935, 
+                        "x": 0.4447191059463447, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.206213409794918, 
+                        "x": 1.0992540524904224, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.4348571352184325, 
+                        "x": -1.3469114185258988, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.9111772760619647, 
+                        "x": 1.4671243383719945, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.056591450458304, 
+                        "x": -0.009024303439506998, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6957727808171534, 
+                        "x": 0.23027717988257224, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.008126984061914, 
+                        "x": 1.2045540205808374, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7333070596478906, 
+                        "x": 0.5215307522807726, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.737358658545455, 
+                        "x": 0.30749327455599573, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8820874604665545, 
+                        "x": -1.314113318456654, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.796299080223357, 
+                        "x": -0.32682993775741664, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.9797355844499, 
+                        "x": 0.02190771016159765, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5510233660986743, 
+                        "x": 1.2848693310865928, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.16940018747886, 
+                        "x": 0.2466336360436585, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.729609328367506, 
+                        "x": -0.6988473126682765, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.714855171236904, 
+                        "x": -0.47041100948719583, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.768329555565643, 
+                        "x": 0.7472315714008357, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6475885387324425, 
+                        "x": 0.843948882317116, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6770478808276263, 
+                        "x": 0.5892148887070707, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.0682132508761804, 
+                        "x": -0.5063552292113701, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.681157228446085, 
+                        "x": -0.8691150370768316, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2498160449599993, 
+                        "x": -0.8079561418757726, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.208157550230634, 
+                        "x": 0.5931140617268111, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.3460694519453313, 
+                        "x": -0.17181061863579217, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.722664875674959, 
+                        "x": -0.18437774073915514, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.2631630160243983, 
+                        "x": 0.4936181921865508, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.591257172804968, 
+                        "x": -0.010439306859974185, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.3982795439642905, 
+                        "x": -1.0468022207817729, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.715742443880747, 
+                        "x": 0.680634570528448, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.824146908553317, 
+                        "x": -1.4262033634830869, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.7929833945443843, 
+                        "x": -1.2219597414473917, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.933821910045509, 
+                        "x": -1.4396544963268156, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.495341828330541, 
+                        "x": -0.054545503819408925, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0034405814076486, 
+                        "x": 0.1533596731159994, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5989485847642633, 
+                        "x": -0.5597509662067772, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.936336357772323, 
+                        "x": -0.09038764755675999, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.5156536574479134, 
+                        "x": 0.45962014722939326, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.501009484981321, 
+                        "x": -0.4325405270257958, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0401514987040983, 
+                        "x": -0.392069372545764, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.957036654841228, 
+                        "x": -1.145763191319742, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.4963645239340915, 
+                        "x": -0.1340365758193598, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.4110818334626996, 
+                        "x": -0.5247690157176913, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.9014162302110753, 
+                        "x": -1.4834956999428328, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.349368858777447, 
+                        "x": -0.6451294027010408, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4118670220502314, 
+                        "x": -0.28914730735619676, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8144259006263286, 
+                        "x": 1.3803108212374342, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.7660122732605474, 
+                        "x": -0.596696189647991, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.581544944992773, 
+                        "x": -0.8848541269688471, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.110719412757378, 
+                        "x": -1.3218899211805126, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.116544977063426, 
+                        "x": -1.2530203663030872, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8567273871727443, 
+                        "x": -0.8443995064129607, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.3072465738936723, 
+                        "x": 0.6342848580023879, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.193862327419275, 
+                        "x": 0.9113370495167117, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.5461813591699842, 
+                        "x": 0.18933672592930328, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.124687541890799, 
+                        "x": -0.5712148514571601, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.859117633727134, 
+                        "x": 0.4418866321452195, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.071694690118841, 
+                        "x": -0.8250331992129905, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.9546986437526757, 
+                        "x": -0.08103666918714048, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6024310251526055, 
+                        "x": 1.228634729379114, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.079243262559215, 
+                        "x": -0.5798787618724128, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.0819259047050185, 
+                        "x": -0.1341502923649589, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.360903456985379, 
+                        "x": 0.4906623869722124, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.137122718443334, 
+                        "x": 0.35366711009019447, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2336978171752837, 
+                        "x": 0.7057738007812309, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.333625504166074, 
+                        "x": -0.5349994123420874, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.1903663591472666, 
+                        "x": 0.28792374460266057, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.9094239921551894, 
+                        "x": -0.03253865297336711, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0790473243731595, 
+                        "x": -0.7314353526063354, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7504692334869043, 
+                        "x": 0.8803539174500186, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.602784500399681, 
+                        "x": -0.7658090505110628, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.6751283210277967, 
+                        "x": -1.1051724731757933, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.0400505928164385, 
+                        "x": -0.968741553213091, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.465833862185164, 
+                        "x": 0.3680024597521774, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.673923958322689, 
+                        "x": -0.8245388710723284, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6529008487410626, 
+                        "x": 0.6781636534694333, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.638759914951185, 
+                        "x": 1.1574016996656584, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3304419630974635, 
+                        "x": 1.1253632661309703, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.4472217009678667, 
+                        "x": -0.6682062250486409, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.9323879095527605, 
+                        "x": -1.1483384903496998, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.641493601998528, 
+                        "x": -0.5964599707194836, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.126122132525912, 
+                        "x": 0.183498323704548, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.2902932908341493, 
+                        "x": -0.6379898617727343, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6647999665180544, 
+                        "x": 1.315125397848413, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.1682606076729183, 
+                        "x": 0.8103245715020861, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6268910954377294, 
+                        "x": -0.3654295317715772, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3866262627629893, 
+                        "x": 0.8697846865261001, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.544720379771029, 
+                        "x": -1.4645200359550872, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.8282581651228216, 
+                        "x": 1.237252047531844, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.831210319236032, 
+                        "x": -1.0149005770498225, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.181012628904475, 
+                        "x": 0.6275533753651703, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.220682089944866, 
+                        "x": 0.37478331548388777, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.674471708033897, 
+                        "x": 0.8789119367009421, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5441147208748145, 
+                        "x": 1.0829864590126488, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.525977623388719, 
+                        "x": -0.665075273961993, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.734309247508626, 
+                        "x": 0.7867244609673874, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.414307748975121, 
+                        "x": 0.13739935132627412, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.3748455272953395, 
+                        "x": 0.5446120511291181, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.9041936824513233, 
+                        "x": -1.0657354536013046, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0070231298910555, 
+                        "x": 0.8466816311200605, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.2834450173014806, 
+                        "x": 1.3349554913327162, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.304036016320004, 
+                        "x": 0.0760583010669813, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.169011493893187, 
+                        "x": -1.2967454394444249, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2660851506118167, 
+                        "x": -1.4678405518558342, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.436234811502473, 
+                        "x": 1.0054979528763575, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.6785280333055614, 
+                        "x": -1.3512282692338071, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6767442177807546, 
+                        "x": -0.7578567126742952, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3322758509514427, 
+                        "x": -0.8892706730065013, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.794015321901301, 
+                        "x": 0.06938194004014209, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.1063596998025425, 
+                        "x": -0.13664459828272246, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3384075574872423, 
+                        "x": -1.0747257338655185, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.5566558972274835, 
+                        "x": -0.20629054368078825, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0567364309435945, 
+                        "x": -1.0836114909760626, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6487290267893693, 
+                        "x": 0.7192853906228764, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.6043291246245124, 
+                        "x": -0.5605616884383288, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0266316564878153, 
+                        "x": -0.21322096110268673, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.117776727837654, 
+                        "x": -1.0253003631418542, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.8914148831228235, 
+                        "x": 0.3901674416528089, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6889867034612323, 
+                        "x": -1.140712616413388, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7129749251245077, 
+                        "x": 0.16236887465372263, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.9336477913175916, 
+                        "x": 0.35260101328375204, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6033861833906924, 
+                        "x": -0.9951522862315497, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.5374089226710423, 
+                        "x": 0.13195862615621667, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.439980453364498, 
+                        "x": 1.4873074658353271, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.2426412913828764, 
+                        "x": -0.6039166247899221, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.599406041226314, 
+                        "x": 1.4053858907771648, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6651073624416997, 
+                        "x": 1.187579960452787, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.591977799297653, 
+                        "x": -1.2917033646792877, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.41004501106276, 
+                        "x": -0.25932871616919395, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.5047847897594275, 
+                        "x": 0.1831084535982428, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.035487255303542, 
+                        "x": -1.3976136808398838, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.9002367039922934, 
+                        "x": -1.2238416534478689, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.937406383820079, 
+                        "x": -0.8915014978463867, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.6580974700346784, 
+                        "x": 1.2364220662451277, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.1698116446015896, 
+                        "x": -0.655575341065232, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.647229012720791, 
+                        "x": 1.1636876162991197, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.727557402938314, 
+                        "x": 0.74454675578672, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.072003300306336, 
+                        "x": -1.1513497354798332, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.0707243775900466, 
+                        "x": 1.4490533820335942, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.5526111357827412, 
+                        "x": -0.8435257914056076, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5692742539628743, 
+                        "x": 0.5920943389634536, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.3133569078550393, 
+                        "x": -0.8610093537381828, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.254296984958895, 
+                        "x": -0.47161241691147104, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.021146014744809, 
+                        "x": 0.7804871836123768, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.397468678258458, 
+                        "x": -0.2066657119781783, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.8426944859869847, 
+                        "x": 1.4444041449731917, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.8049737559158814, 
+                        "x": 0.12739376682813797, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.598987365671462, 
+                        "x": 0.6777503587199463, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.406381030976085, 
+                        "x": 0.37702430753336524, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.1752219167495395, 
+                        "x": -1.4209752685790273, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.2174265105693154, 
+                        "x": 0.38867057744090805, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.07957575732516, 
+                        "x": -0.7360957934218547, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.5809831695827152, 
+                        "x": -0.3678603371193012, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.652949774366707, 
+                        "x": -1.3038977762920454, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.410614932249441, 
+                        "x": 0.743907400408391, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0722519695374393, 
+                        "x": 1.3152087276488063, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.739425893202304, 
+                        "x": 0.8133896838974937, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.9520634020586924, 
+                        "x": -1.4873704027825347, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.3306764946942704, 
+                        "x": 1.1680607676413954, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.6487141720815464, 
+                        "x": -0.16385188728209465, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.946333605273286, 
+                        "x": -1.260730441753327, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.7247644005959883, 
+                        "x": 0.5554660061914771, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8093488888240348, 
+                        "x": -1.328342894419666, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2755665505202467, 
+                        "x": 0.296159239942134, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.293259330574768, 
+                        "x": -1.444186901243329, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5719721091407424, 
+                        "x": -1.27492795556656, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.877930593136907, 
+                        "x": -1.213509408067317, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.093468273901345, 
+                        "x": -1.406898471812842, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.034759679999703, 
+                        "x": -0.1896315915042326, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0322481268271053, 
+                        "x": -0.5633201566501539, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.821476187434241, 
+                        "x": 0.31834201595610856, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.9202681262211074, 
+                        "x": 0.607779374139565, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.755359801587599, 
+                        "x": -0.12023628689343879, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.5532686091841477, 
+                        "x": -0.931276366858367, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.9644200813620487, 
+                        "x": -1.2412371375442373, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.1262370703401725, 
+                        "x": 1.3956960730616226, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5235196654245864, 
+                        "x": -0.5714550633083316, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.570289177076622, 
+                        "x": 1.443898139725965, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.058153751550588, 
+                        "x": -1.2377980158981865, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.58617968114193, 
+                        "x": 0.700551379478533, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.752518064305243, 
+                        "x": -0.5388130238273678, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.550271263062487, 
+                        "x": 1.2958144764022208, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.5307883162210425, 
+                        "x": 0.19879990305395712, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.4495058647338315, 
+                        "x": 0.23851966770263466, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0378623911134417, 
+                        "x": 0.710060502943612, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.26130500825124, 
+                        "x": -0.2431691193196377, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.759400961396953, 
+                        "x": 1.2187277886893781, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.469593919462949, 
+                        "x": 0.7345842545845915, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.551552287819093, 
+                        "x": 0.10609327275959757, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.960638693554804, 
+                        "x": 0.3810772844918806, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6446825290878526, 
+                        "x": 1.2955710161984135, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2327901956424054, 
+                        "x": 1.4720605646327818, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.66807430748462, 
+                        "x": 0.260593184993958, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.5666154185032632, 
+                        "x": -1.2830995448071976, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.357728227913964, 
+                        "x": 0.0664778346199999, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.429132610117405, 
+                        "x": 1.4472853425968717, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.5470598581811963, 
+                        "x": -0.3990168912395493, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.195353692207139, 
+                        "x": 1.4181894848357075, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.070692308631386, 
+                        "x": 0.3414660884016669, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.450035477352946, 
+                        "x": -1.0441350649571408, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.292948062231011, 
+                        "x": -0.7370300545519126, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.1991516146994172, 
+                        "x": -0.805477513626941, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8772646148979617, 
+                        "x": -0.651919511408132, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.2769856226426874, 
+                        "x": 0.7578086972749452, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.609210500267155, 
+                        "x": -0.2507973651031059, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.3608732620484507, 
+                        "x": -0.5098103593100346, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4500553891563404, 
+                        "x": -0.5362911233520539, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.4032770176639113, 
+                        "x": -1.065111596387032, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.4201620146366993, 
+                        "x": -0.1379740117384496, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.8015136000193737, 
+                        "x": 0.1257667483698457, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.4369680439091645, 
+                        "x": 0.004511251176897657, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.130380300112298, 
+                        "x": 0.6316386423047682, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.962166259595327, 
+                        "x": -1.113041168566947, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2084715843632003, 
+                        "x": 0.28684947314668174, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.1593967200375186, 
+                        "x": 1.2928578242725486, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.244921950715745, 
+                        "x": 0.43886612183770923, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.604646389320256, 
+                        "x": -0.8251635304561689, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.3265474897918024, 
+                        "x": -0.884301268297348, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.1412538864906727, 
+                        "x": 1.042310894461425, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.3489226505360663, 
+                        "x": -0.6495550101006654, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5577657148293538, 
+                        "x": 0.6473622151219081, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.108488680570748, 
+                        "x": -1.4696185203371521, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8546557069563363, 
+                        "x": 0.7131992891798431, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.7180778777567935, 
+                        "x": -1.3597302408041276, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.1806853475207175, 
+                        "x": 0.7724014799410628, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.3509016703087466, 
+                        "x": 0.18621141360222215, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.942917900761004, 
+                        "x": 1.090873814182166, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.3854298578035005, 
+                        "x": -0.7174406467879577, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.033867672598472, 
+                        "x": 0.6879617440422279, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.385742138858529, 
+                        "x": -1.191170593177036, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.170885634154586, 
+                        "x": -0.1651119614128167, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0545922743615463, 
+                        "x": -0.309420170691479, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.9112164712964583, 
+                        "x": -1.4810764573834965, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0534090289129665, 
+                        "x": 0.9671765979453792, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.741313992996161, 
+                        "x": -0.5187752193600331, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.876237090576013, 
+                        "x": -0.9461249097415821, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.192240601331517, 
+                        "x": 1.275277070362086, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.1968269221000405, 
+                        "x": 1.040588878542168, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6296969752889017, 
+                        "x": 0.7507658442573693, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.4575309511760737, 
+                        "x": -0.414418683832372, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 3.427380529336353, 
+                        "x": 1.1518814326250117, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.156696376273606, 
+                        "x": 0.24852621833896782, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7667610035064145, 
+                        "x": -0.8888198236595469, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2043595171903165, 
+                        "x": 1.3745909929452722, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.534275420997941, 
+                        "x": 1.3279425187679856, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.1262644440063063, 
+                        "x": 0.5876808176586388, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.965395036675224, 
+                        "x": -0.3174467685408615, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.6451810565189025, 
+                        "x": -0.9497645587917565, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0909160100895736, 
+                        "x": 1.3143485285576628, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.880754432505118, 
+                        "x": -0.56000354443978, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.5182290059474726, 
+                        "x": -1.042844962609852, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.860526990527464, 
+                        "x": -0.03383322488409002, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.044589322673053, 
+                        "x": 0.531014212167392, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.9262969259231784, 
+                        "x": -0.14383180098814763, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.627352154060566, 
+                        "x": 1.3427253403811017, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.831928344541983, 
+                        "x": 0.24240872506971534, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.920480273625833, 
+                        "x": 0.47547531977314805, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5719066363960277, 
+                        "x": 0.6840109848947762, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.0704695335949213, 
+                        "x": 0.1535994314400182, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.8904044088056446, 
+                        "x": 0.28110458926121984, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.5625480058933214, 
+                        "x": 1.389971940149997, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4393377602317017, 
+                        "x": 0.07726506432846847, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.140426280186614, 
+                        "x": 1.3711624235207998, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.1023423518590834, 
+                        "x": 1.3725111295468704, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.5139373987916604, 
+                        "x": 0.3430223247284472, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.45873862468624, 
+                        "x": -0.049279835473775124, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.6673390865012383, 
+                        "x": 0.5650284660498581, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6202492327747597, 
+                        "x": 0.25039603285172163, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.2270343019577656, 
+                        "x": -1.0202320132291036, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.719534121503689, 
+                        "x": -0.6369249773837348, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.566939669686815, 
+                        "x": -1.1501878929861493, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.035514487183291, 
+                        "x": -0.5312786709667608, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6895618884797674, 
+                        "x": 1.0912066621200402, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.947841873348507, 
+                        "x": 1.167214121793939, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.956812142903583, 
+                        "x": 1.2129205813700241, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7903109342957677, 
+                        "x": 1.1094220581723033, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.3428045991080584, 
+                        "x": -0.7453738677725935, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.688825399884081, 
+                        "x": -0.9492878871546699, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.708502613131527, 
+                        "x": 0.4100133043067675, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.064628431307451, 
+                        "x": 1.1386205977797825, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.878386731749538, 
+                        "x": 0.6669117101469841, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.6157176803160014, 
+                        "x": 0.5721644356424331, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.4036187094640873, 
+                        "x": 1.0405765943362066, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.1864801895506556, 
+                        "x": 1.022707586701216, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.142454242026931, 
+                        "x": -1.1543391385455546, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.7096103228794606, 
+                        "x": -0.17614781422902537, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.2815989296993613, 
+                        "x": 0.12935768405664927, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.781548975901864, 
+                        "x": -0.7642639778675309, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7304269242315815, 
+                        "x": 0.9061014770125815, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.7118844101892137, 
+                        "x": 0.4196576727491208, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8015981886190007, 
+                        "x": -0.8606875575645911, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.2542700621070444, 
+                        "x": 1.4015151775245651, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.769800641019506, 
+                        "x": 0.9656872997689936, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.1938974540391154, 
+                        "x": 0.3522933136268711, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.1872490828589086, 
+                        "x": -1.0916244305107887, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.499569799211561, 
+                        "x": 0.3798932475850849, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.00448121337043, 
+                        "x": 0.8578503463507832, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5638112729152405, 
+                        "x": -0.05045472604639922, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.674136543787354, 
+                        "x": -0.4460585403692532, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.678446769792799, 
+                        "x": 0.49899928715716513, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.2218686199573225, 
+                        "x": -1.1604350836769655, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.244107236732993, 
+                        "x": -1.0218950046383577, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6324915892746454, 
+                        "x": 0.007825400569667629, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.964633869626428, 
+                        "x": 0.7451012270368005, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.099806517498077, 
+                        "x": 1.475234255533615, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.2250442624230797, 
+                        "x": -0.46549342008068706, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.532781288063246, 
+                        "x": -0.24178147784862936, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.552948543099774, 
+                        "x": -1.0735057670209698, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8141154556554318, 
+                        "x": -0.038148763842141165, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.5769412875445465, 
+                        "x": 0.0648163726079094, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.720070070940659, 
+                        "x": 1.205238591626964, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.84914126681919, 
+                        "x": -1.138146826742656, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4165236744503176, 
+                        "x": -0.08200443636450316, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.220024001014455, 
+                        "x": 1.1350609520598454, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.5702451671992157, 
+                        "x": 0.6583546339383046, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.1940723686805343, 
+                        "x": -1.2386549855502678, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.9898846886697905, 
+                        "x": 0.5254299385490708, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.675022898862677, 
+                        "x": -0.9568580937104044, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.5364142365236493, 
+                        "x": -0.34266707889414283, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6721807225534535, 
+                        "x": 1.3534763038613082, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.053263708080475, 
+                        "x": -0.7859429208325208, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.0434538173183014, 
+                        "x": -0.9125817268821133, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.2623436445367604, 
+                        "x": -0.2837965801035647, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6589605458939376, 
+                        "x": 0.9439134439644574, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6304044920636196, 
+                        "x": 1.471235378425543, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.2934249435985516, 
+                        "x": 0.9813396598136306, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.3984497838873944, 
+                        "x": 0.7796683244912925, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3310049944260287, 
+                        "x": 0.13963688250859763, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.7091733625407834, 
+                        "x": -0.8664331790592043, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.6965186461257837, 
+                        "x": -1.111747217690631, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.0417971081147877, 
+                        "x": 1.0146274158998834, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.542976457511211, 
+                        "x": -1.3881768672080175, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.8516227406971826, 
+                        "x": 0.3002717646332429, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.369580694034151, 
+                        "x": 1.0153469703550173, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.3070645383315505, 
+                        "x": 0.10104796983020758, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.3502155423379456, 
+                        "x": -0.7801197724573498, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0956036936993474, 
+                        "x": 0.8434381954805685, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.757745644138966, 
+                        "x": -1.220002573142773, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.179059551082878, 
+                        "x": -0.8484355244636392, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.2667751092712347, 
+                        "x": 1.3008735148410873, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.644406533754034, 
+                        "x": 1.0038464371130456, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.7786624999376857, 
+                        "x": -1.2969151516834172, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.1252576449231038, 
+                        "x": 1.1340522090204708, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.3660746175089695, 
+                        "x": 0.02583507371194571, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.624306168735636, 
+                        "x": -1.3107072694808566, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.045361977439395, 
+                        "x": -0.34132772059146, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.0278382622594444, 
+                        "x": -0.8700057983931817, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4748124327319916, 
+                        "x": -0.7318937472223384, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.8609590491117154, 
+                        "x": 0.8003813900221464, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.620010321108211, 
+                        "x": 1.2749092167832279, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.405049632115343, 
+                        "x": 1.2535476709121842, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.3367288233654624, 
+                        "x": 0.4194360533178756, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "top": [
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.589396956684626, 
+                        "x": -0.8385235301731019, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.0285397806212746, 
+                        "x": 0.5059632956615006, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.6328084233933993, 
+                        "x": -0.22647147900511255, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.931227818716158, 
+                        "x": -1.1940543510770747, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.139898786248502, 
+                        "x": -1.06119874144677, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 3.6358120151781304, 
+                        "x": 1.3800925834158337, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.742236253370478, 
+                        "x": 1.4803623935565167, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.3412176200887163, 
+                        "x": -1.4932106910834126, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.501732472610795, 
+                        "x": -1.3991742289519866, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.7702766946504527, 
+                        "x": -0.11133049046759447, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.5129147603706756, 
+                        "x": -1.0995284644293297, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.7817989115326887, 
+                        "x": 0.15457461544059337, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.1263902742514142, 
+                        "x": -0.015783022304662664, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.9250032695704657, 
+                        "x": -0.40374127194566833, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ], 
+        "bottom": [
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.8135527210643403, 
+                        "x": 1.1062231382972385, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.8059976378675087, 
+                        "x": 0.21973810138791938, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.061798556568941, 
+                        "x": -0.47457843181465087, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.293209024908456, 
+                        "x": 1.4710773154920842, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.4366622449343955, 
+                        "x": -0.11690304415323927, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.307625644727776, 
+                        "x": 0.02398763535983761, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.2683159220000673, 
+                        "x": -0.13913850904423564, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.189205360946264, 
+                        "x": 0.48040139068091214, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": false, 
+                "pitches": [
+                    {
+                        "y": 2.8652255187048317, 
+                        "x": -1.4146580330548848, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.8955941645946206, 
+                        "x": 1.1372211622558162, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.0272693419191894, 
+                        "x": 0.11722006310623212, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.021162435456918, 
+                        "x": 0.3208613773276885, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.7658657432496954, 
+                        "x": -0.9399009370032054, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.6421512997799588, 
+                        "x": -1.1662866131618106, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.225187891286854, 
+                        "x": -1.216571202042016, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.702531628384021, 
+                        "x": 0.6448244808701817, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 3.2386558182421243, 
+                        "x": 0.4527055065483978, 
+                        "pitch_type": "knuckle", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.4458448853858163, 
+                        "x": -0.3541724004248694, 
+                        "pitch_type": "curve", 
+                        "pitch_call": "ball"
+                    }, 
+                    {
+                        "y": 2.444928205196218, 
+                        "x": -0.7661992350626744, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }, 
+            {
+                "strike_out": true, 
+                "pitches": [
+                    {
+                        "y": 2.427774077564161, 
+                        "x": 0.12060610430506813, 
+                        "pitch_type": "changeup", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 3.497021063451193, 
+                        "x": 0.4098499221030445, 
+                        "pitch_type": "slider", 
+                        "pitch_call": "strike"
+                    }, 
+                    {
+                        "y": 2.0153110496500095, 
+                        "x": 1.3323546022974249, 
+                        "pitch_type": "fastball", 
+                        "pitch_call": "strike"
+                    }
+                ]
+            }
+        ]
+    }
+]
