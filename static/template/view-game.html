@@ -18,12 +18,12 @@
            <div class="panel panel-default">
                <div class="panel_heading">
                    <h2 class="panel-title">
-                       <a data-toggle="collapse" data-parent="#accordion" href="#{{game_id}}-t{{inning_num}}">
+                       <a data-toggle="collapse" data-parent="#accordion" href="#{{game_id}}-{{inning_num}}">
                            Inning {{loop.index}}
                        </a>
                    </h2>
                </div>
-               <div id="{{game_id}}-t{{inning_num}}" class="panel-collapse collapse in">
+               <div id="{{game_id}}-{{inning_num}}" class="panel-collapse collapse in">
                    <div class="inning">
                    <h3>Top</h3>
                        {%for atbat in inning['top']%}
