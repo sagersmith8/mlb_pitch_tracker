@@ -52,9 +52,15 @@
                        {%endfor%}
                        </div>
                    </div>
-
-                   <div class="inning">
-                       <h3>Bottom</h3>
+                   <div class="panel-group" id="accordion_b{{inning_num}}">
+                       <div class="header">
+                           <h2 class="panel-heading">
+                               <a data-toggle="collapse" data-parent="#accordion_b{{inning_num}}" href="#{{game_id}}-b{{inning_num}}">
+                                   Bottom
+                               </a>
+                           </h2>
+                       </div>
+                       <div id="{{game_id}}-b{{inning_num}}" class="panel-collapse collapse">
                        {%for atbat in inning['bottom']%}
                            <div class="atbat_container">
                                <h4>
@@ -65,13 +71,14 @@
                                    {{game_data['away']['players'][atbat['pitcher']]['last']}}
                                </h4>
                                <div class="atbat">
-                                    <div class="pitches">
+                                   <div class="pitches">
                                        {{atbat['pitches']}}
                                    </div>
                                    <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
                                </div>
                            </div>
                        {%endfor%}
+                       </div>
                    </div>
                 </div>
             </div>
