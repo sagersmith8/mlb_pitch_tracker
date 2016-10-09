@@ -21,6 +21,5 @@ function draw_strikezone(id, pitches) {
         ctx.beginPath();
         ctx.arc(mw, mh, 10, 0, 2 * Math.PI);
         ctx.fill();
-
     }
 }
