@@ -8,6 +8,26 @@ AT_BAT_KEYS = ['batter', 'pitcher', 'des', 'p_throws', 'stand']
 PLAYER_KEYS = ['id', 'position', 'bat_order', 'first', 'last']
 VENUE_KEYS = ['venue']
 
+PITCH_MAPPED_KEYS = {
+    'pitch_type': lambda x: PITCH_TYPE.get(x, 'unknown')
+}
+
+PITCH_TYPE = {
+    'CH': 'changeup',
+    'CU': 'cutter',
+    'EP': 'eephus',
+    'FA': 'fastball',
+    'FC': 'fastball cutter',
+    'FS': 'splitter',
+    'FF': 'four-seam fastball',
+    'FT': 'two-seam fastball',
+    'KC': 'knuckle curve',
+    'KN': 'knuckleball',
+    'PO': 'pitch out',
+    'SI': 'sinker',
+    'SL': 'slider',
+}
+
 def get_game(game_id):
     game_loc = game_path(game_id)
     game = parse_game(grab_asset('{}/players.xml'.format(game_loc)))
@@ -42,10 +62,14 @@ def parse_innings(inning_xml):
                     pitches = []
                     for pitch in at_bat:
                         if pitch.tag == 'pitch':
-                            pitches.append(filter_dict(
-                                dict(pitch.items()),
-                                PITCH_KEYS
-                            ))
+                            pitches.append(
+                                map_dict(
+                                    filter_dict(
+                                        dict(pitch.items()),
+                                        PITCH_KEYS),
+                                    PITCH_MAPPED_KEYS
+                                )
+                            )
                     at_bat_data['pitches'] = pitches
                     at_bats.append(at_bat_data)
             inning_data[team_inning.tag] = at_bats
@@ -112,6 +136,12 @@ def parse_game_list(scoreboard_xml):
 
 def filter_dict(_dict, keys):
     return {key: _dict[key] for key in keys if key in _dict}
+
+def map_dict(_dict, mapped_keys):
+    for key, mapping_fcn in mapped_keys.iteritems():
+        if key in _dict:
+            _dict[key] = mapping_fcn(_dict[key])
+    return _dict
 
 def grab_asset(asset):
     response = requests.get("{base}/{asset}".format(base=DATA_PREFIX, asset=asset))
