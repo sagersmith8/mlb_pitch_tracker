@@ -12,20 +12,27 @@
 {%block body%}
    <div class="container">
        <h1>{{away}} at {{home}}</h1>
-       <div class="panel-group" id="accordion">
+       <div class="panel-group" id="accordion_innings">
        {%for inning in game_data['innings']%}
            {%set inning_num = loop.index%}
            <div class="panel panel-default">
-               <div class="panel_heading">
+               <div class="panel-heading">
                    <h2 class="panel-title">
-                       <a data-toggle="collapse" data-parent="#accordion" href="#{{game_id}}-{{inning_num}}">
+                       <a data-toggle="collapse" data-parent="#accordion_innings" href="#{{game_id}}-{{inning_num}}">
                            Inning {{loop.index}}
                        </a>
                    </h2>
                </div>
                <div id="{{game_id}}-{{inning_num}}" class="panel-collapse collapse">
-                   <div class="inning">
-                   <h3>Top</h3>
+                   <div class="panel-group" id="accordion_t{{inning_num}}">
+                       <div class="header">
+                           <h2 class="panel-heading">
+                               <a data-toggle="collapse" data-parent="#accordion_t{{inning_num}}" href="#{{game_id}}-t{{inning_num}}">
+                                   Top
+                               </a>
+                           </h2>
+                       </div>
+                       <div id="{{game_id}}-t{{inning_num}}" class="panel-collapse collapse">
                        {%for atbat in inning['top']%}
                            <div class="atbat_container">
                                <h4>
@@ -43,6 +50,7 @@
                                </div>
                            </div>
                        {%endfor%}
+                       </div>
                    </div>
 
                    <div class="inning">
