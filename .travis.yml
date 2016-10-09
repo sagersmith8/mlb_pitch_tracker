@@ -8,4 +8,4 @@ notifications:
   slack: msucompsci:AuVt8PyAyo1MT00Ksk7rDhzA
 script:
  - ./run-tests.sh
- - codecov
+# - codecov

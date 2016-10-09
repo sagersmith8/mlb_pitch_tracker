@@ -40,6 +40,20 @@ def generate_pitch():
     }
 
 
+def generate_game_title():
+    return {
+        'id': random.randint(100000, 999999),
+        'title': '{} at {}'.format(generate_name(), generate_name())
+    }
+
+
+def generate_games():
+    games = []
+    for _ in xrange(random.randint(3, 15)):
+        games.append(generate_game_title())
+    return games
+
+
 def generate_name():
     name = random.choice(string.ascii_uppercase)
     for _ in range(random.randint(2, 8)):
@@ -100,8 +114,11 @@ def generate_inning():
 
 def generate_game():
     return {
-        'home': 'CUBS',
-        'away': 'GIANTS',
+        'day': random.randint(1, 30),
+        'month': random.randint(1, 12),
+        'year': random.randint(1909, 2016),
+        'home': generate_name(),
+        'away': generate_name(),
         'game_data': [generate_inning() for _ in xrange(9)]
     }
 

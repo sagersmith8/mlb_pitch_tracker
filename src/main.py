@@ -1,10 +1,9 @@
-import logging
 from datetime import datetime
+
 import bottle
-from bottle import route
+from bottle import route, post
 from core import respond
-import json
-from generate_test_game import generate_game
+from generate_test_game import generate_game, generate_games
 import pytz
 
 bottle.debug(True)
@@ -12,36 +11,47 @@ app = bottle.default_app()
 
 
 @route('/')
-def home():
-    dt = datetime.now(pytz.utc)
-    tz = 'US/Pacific'
-    dt = dt.astimezone(pytz.timezone(tz))
+@route('/<games>')
+@route('/<games>/')
+@post('/')
+@post('/<games>')
+@post('/<games>/')
+def home(games=None):
+    today = bottle.request.forms.get('date')
+    if today is not None:
+        year, month, day = today.split('-')
+    else:
+        today = datetime.now(pytz.utc)
+        tz = 'US/Pacific'
+        today = today.astimezone(pytz.timezone(tz))
+        day = str(today.day).zfill(2)
+        month = str(today.month).zfill(2)
+        year = today.year
 
-    msg = "Sage and Bridger will add stuff here. Date: {}".format(dt)
-    logging.info('someone hit the home page')  # app engine log.
-    return respond('index.html', {'msg': msg})
+    return respond(
+        'index.html',
+        {
+            'games': generate_games(),
+            'day': day,
+            'month': month,
+            'year': year
+        }
+    )
 
 
-@route('/test_game_data')
-@route('/test_game_data/')
-def test_game():
-    return respond('index.html', {'msg': json.dumps(generate_game(), indent=4)})
-
-
-@route('/view_game/<month>/<day>/<year>/<home>/<game_number>')
-@route('/view_game/<month>/<day>/<year>/<home>/<game_number>/')
-@route('/view_game/<month>/<day>/<year>/<home>/')
-@route('/view_game/<month>/<day>/<year>/<home>')
-def view_game(month, day, year, home, game_number=None):
+@route('/view_game/<game_id>')
+@route('/view_game/<game_id>/')
+def view_game(game_id):
     game = generate_game()
+
     return respond(
         'view-game.html',
         {
-            'home': home.upper(),
+            'home': game['home'].upper(),
             'away': game['away'].upper(),
-            'day': day,
-            'month': month,
-            'year': year,
+            'day': game['day'],
+            'month': game['month'],
+            'year': game['year'],
             'game_data': generate_game()
         }
     )
