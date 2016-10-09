@@ -1,4 +1,4 @@
-from lxml import etree
+from xml.etree import ElementTree
 import requests
 
 DATA_PREFIX = 'http://gd2.mlb.com/components/game/mlb'
@@ -25,7 +25,7 @@ def parse_innings(inning_xml):
     if not inning_xml:
         return None
 
-    innings = etree.fromstring(inning_xml)
+    innings = ElementTree.fromstring(inning_xml)
 
     inning_list = []
     for inning in innings:
@@ -56,7 +56,7 @@ def parse_game(game_xml):
     if not game_xml:
         return None
 
-    game = etree.fromstring(game_xml)
+    game = ElementTree.fromstring(game_xml)
     game_map = filter_dict(
         dict(game.items()),
         VENUE_KEYS)
@@ -92,7 +92,7 @@ def parse_game_list(scoreboard_xml):
     if not scoreboard_xml:
         return None
 
-    games = etree.fromstring(scoreboard_xml)
+    games = ElementTree.fromstring(scoreboard_xml)
 
     game_list = []
     for game_info in games:
