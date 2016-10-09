@@ -27,6 +27,7 @@ PITCH_TYPE = {
     'SL': 'slider',
 }
 
+
 def get_game(game_id):
     game_loc = game_path(game_id)
     game = parse_game(grab_asset('{}/players.xml'.format(game_loc)))
@@ -35,10 +36,12 @@ def get_game(game_id):
     game['innings'] = parse_innings(grab_asset('{}/inning/inning_all.xml'.format(game_loc)))
     return game
 
+
 def game_path(game_id):
     return 'year_{year}/month_{month:0>2}/day_{day:0>2}/gid_{}'.format(
         game_id, **extract_date(game_id)
     )
+
 
 def parse_innings(inning_xml):
     if not inning_xml:
@@ -75,6 +78,7 @@ def parse_innings(inning_xml):
 
     return inning_list
 
+
 def parse_game(game_xml):
     if not game_xml:
         return None
@@ -102,14 +106,17 @@ def parse_game(game_xml):
                     team_players[player_data['id']] = player_data
     return game_map
 
+
 def extract_date(game_id):
     date = {}
     date['year'], date['month'], date['day'] = game_id.split('_')[:3]
     return date
 
+
 def list_games(date):
     scoreboard_xml = grab_asset('year_{year}/month_{month:0>2}/day_{day:0>2}/scoreboard.xml'.format(**date))
     return parse_game_list(scoreboard_xml)
+
 
 def parse_game_list(scoreboard_xml):
     if not scoreboard_xml:
@@ -135,11 +142,13 @@ def parse_game_list(scoreboard_xml):
 def filter_dict(_dict, keys):
     return {key: _dict[key] for key in keys if key in _dict}
 
+
 def map_dict(_dict, mapped_keys):
     for key, mapping_fcn in mapped_keys.iteritems():
         if key in _dict:
             _dict[key] = mapping_fcn(_dict[key])
     return _dict
+
 
 def grab_asset(asset):
     from google.appengine.api import urlfetch

@@ -20,12 +20,28 @@ body{
 
 .inning_container{
     display: table;
+    margin: auto;
+    text-align: center;
 }
 
 .inning{
     display: table-row;
 }
 
+.atbat_container{
+    #display: table-cell;
+}
+
 .atbat{
-    display: table
+    height: 500px;
+    background-image: url('../img/home_plate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.strikezone{
+    #border:1px solid black;
+    display: inline;
+    margin-left: 5%;
 }
