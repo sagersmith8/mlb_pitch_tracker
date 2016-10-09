@@ -6,6 +6,7 @@
 {%endblock%}
 
 {%block body%}
+   <img id="home_plate" src="/img/home_plate_adjusted.png" width="0" height="0">
    <div class="inning_container">
        <h1>{{away}} at {{home}}</h1>
 
@@ -24,10 +25,7 @@
                            {{game_data['home']['players'][atbat['pitcher']]['last']}}
                        </h4>
                        <div class="atbat">
-                           <div class="pitches">
-                               {{atbat['pitches']}}
-                           </div>
-                           <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                           <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="500" height="500" class="strikezone"></canvas>
                        </div>
                    </div>
                {%endfor%}
@@ -45,10 +43,7 @@
                            {{game_data['away']['players'][atbat['pitcher']]['last']}}
                        </h4>
                        <div class="atbat">
-                            <div class="pitches">
-                               {{atbat['pitches']}}
-                           </div>
-                           <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                           <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="500" height="500" class="strikezone"></canvas>
                        </div>
                    </div>
                {%endfor%}
@@ -59,10 +54,22 @@
 {% block extrascripts %}
 <script src="/js/draw_strikezone.js"></script>
 <script type="text/javascript">
-    var pitches = {{game_data['innings'][-1]['top'][0]['pitches'] | safe}};
-    draw_strikezone(
-            "{{game_id}}-t1-1",
-            pitches
-    );
+    var game = {{game_data['innings'] | safe}};
+    var game_id = "{{game_id}}";
+
+    for(var inning = 1; inning <= game.length; inning++) {
+        for(var atbat = 1; atbat <= game[inning-1]['top'].length; atbat++) {
+            draw_strikezone(
+                    game_id + "-t" + inning + "-" + atbat,
+                    game[inning-1]['top'][atbat-1]['pitches']
+            );
+        }
+        for(var atbat = 1; atbat <= game[inning-1]['bottom'].length; atbat++) {
+            draw_strikezone(
+                    game_id + "-b" + inning + "-" + atbat,
+                    game[inning-1]['bottom'][atbat-1]['pitches']
+            );
+        }
+    }
 </script>
 {% endblock %}
