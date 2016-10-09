@@ -53,6 +53,7 @@ def view_game(game_id):
             'day': datedict['day'],
             'month': datedict['month'],
             'year': datedict['year'],
-            'game_data': game
+            'game_data': game,
+            'game_id': game_id
         }
     )

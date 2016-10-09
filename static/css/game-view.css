@@ -18,12 +18,29 @@ body{
 
 .inning_container{
     display: table;
+    text-align: center;
 }
 
 .inning{
     display: table-row;
 }
 
+.atbat_container{
+    #display: table-cell;
+}
+
 .atbat{
-    display: table
+    height: 500px;
+    background-image: url("/img/background.svg");
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.strikezone{
+    border:1px solid black;
+    display: inline;
+}
+
+.pitches{
+    display: none;
 }
