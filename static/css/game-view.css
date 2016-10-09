@@ -33,15 +33,14 @@ body{
 }
 
 .atbat{
-    height: 500px;
-    background-image: url('../img/home_plate.jpg');
+    /*background-image: url('../img/home_plate.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     text-align: center;
 }
 
 .strikezone{
-    #border:1px solid black;
-    display: inline;
-    margin-left: 5%;
+    /*border:1px solid black;*/
+    width: 500px;
+    height: 500px;
 }
