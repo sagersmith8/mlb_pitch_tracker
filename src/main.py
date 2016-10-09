@@ -1,9 +1,10 @@
-import datetime
+from datetime import datetime
 
 import bottle
 from bottle import route, post
 from core import respond
 from generate_test_game import generate_game, generate_games
+import pytz
 
 bottle.debug(True)
 app = bottle.default_app()
@@ -20,9 +21,11 @@ def home(games=None):
     if today is not None:
         year, month, day = today.split('-')
     else:
-        today = datetime.datetime.now()
-        day = today.day
-        month = today.month
+        today = datetime.now(pytz.utc)
+        tz = 'US/Pacific'
+        today = today.astimezone(pytz.timezone(tz))
+        day = str(today.day).zfill(2)
+        month = str(today.month).zfill(2)
         year = today.year
 
     return respond(
