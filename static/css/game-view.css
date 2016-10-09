@@ -44,3 +44,22 @@ body{
     width: 500px;
     height: 500px;
 }
+
+.pitches {
+    background: #fff;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+
+.S{
+    color: #800000;
+}
+
+.X{
+    color: #000080;
+}
+
+.B{
+    color: #008000;
+}

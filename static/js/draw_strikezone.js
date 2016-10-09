@@ -31,11 +31,13 @@ function draw_strikezone(id, pitches) {
         var x = wf*rx;//mw+pitches[i]['px']*12*mw/17;
         var y = tmh + wf*(pitches[i]['sz_top'] - pitches[i]['pz']);
 
-        if(pitches[i]["des"]=="Ball"){
+        if(pitches[i]["type"]=="B"){
             ctx.fillStyle = '#11a016';
-        } else{
+        } else if(pitches[i]["type"]=="S") {
             ctx.fillStyle = '#ba2525';
-        }
+        } else {
+            ctx.fillStyle = '#252580';
+	}
         ctx.beginPath();
         ctx.arc(x, y, cr, 0, 2 * Math.PI);
         ctx.fill();

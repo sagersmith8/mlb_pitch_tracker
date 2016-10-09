@@ -26,6 +26,27 @@
                        </h4>
                        <div class="atbat">
                            <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="500" height="500" class="strikezone"></canvas>
+
+                           <table class="pitches table">
+                               <thead>
+                                   <tr class="success">
+                                       <td>Pitch #</td>
+                                       <td>Speed</td>
+                                       <td>Type</td>
+                                       <td>Description</td>
+                                   </tr>
+                               </thead>
+                               <tbody>
+                               {%for pitch in atbat['pitches']%}
+                                   <tr class="{{pitch['type']}}">
+                                       <td>{{loop.index}}</td>
+                                       <td>{{pitch['start_speed']}} MPH</td>
+                                       <td>{{pitch['pitch_type']}}</td>
+                                       <td>{{pitch['des']}}</td>
+                                   </tr>
+                               {%endfor%}
+                               </tbody>
+                           </table>			 
                        </div>
                    </div>
                {%endfor%}
@@ -44,6 +65,27 @@
                        </h4>
                        <div class="atbat">
                            <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="500" height="500" class="strikezone"></canvas>
+
+                           <table class="pitches table">
+                               <thead>
+                                   <tr class="success">
+                                       <td>Pitch #</td>
+                                       <td>Speed</td>
+                                       <td>Type</td>
+                                       <td>Description</td>
+                                   </tr>
+                               </thead>
+                               <tbody>
+                               {%for pitch in atbat['pitches']%}
+                                   <tr class="{{pitch['type']}}">
+                                       <td>{{loop.index}}</td>
+                                       <td>{{pitch['start_speed']}} MPH</td>
+                                       <td>{{pitch['pitch_type']}}</td>
+                                       <td>{{pitch['des']}}</td>
+                                   </tr>
+                               {%endfor%}
+                               </tbody>
+                           </table>
                        </div>
                    </div>
                {%endfor%}
@@ -64,12 +106,14 @@
                     game[inning-1]['top'][atbat-1]['pitches']
             );
         }
-        for(var atbat = 1; atbat <= game[inning-1]['bottom'].length; atbat++) {
+	if(game[inning-1]['bottom'] != null) {
+	for(var atbat = 1; atbat <= game[inning-1]['bottom'].length; atbat++) {
             draw_strikezone(
                     game_id + "-b" + inning + "-" + atbat,
                     game[inning-1]['bottom'][atbat-1]['pitches']
             );
-        }
+	}
+	}
     }
 </script>
 {% endblock %}
