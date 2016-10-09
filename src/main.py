@@ -6,6 +6,7 @@ from core import respond
 from generate_test_game import generate_game, generate_games
 import pytz
 
+import game_parser
 bottle.debug(True)
 app = bottle.default_app()
 
@@ -31,7 +32,7 @@ def home(games=None):
     return respond(
         'index.html',
         {
-            'games': generate_games(),
+            'games': game_parser.list_games({'day': day, 'year': year, 'month': month}),
             'day': day,
             'month': month,
             'year': year
@@ -42,16 +43,16 @@ def home(games=None):
 @route('/view_game/<game_id>')
 @route('/view_game/<game_id>/')
 def view_game(game_id):
-    game = generate_game()
+    game = game_parser.get_game(game_id)
 
     return respond(
         'view-game.html',
         {
-            'home': game['home'].upper(),
-            'away': game['away'].upper(),
+            'home': game['home']['name'],
+            'away': game['away']['name'],
             'day': game['day'],
             'month': game['month'],
             'year': game['year'],
-            'game_data': generate_game()
+            'game_data': game
         }
     )

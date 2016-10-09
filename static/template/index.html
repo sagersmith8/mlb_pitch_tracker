@@ -6,7 +6,7 @@
 <div>
     <h1>Games for {{month}}/{{day}}/{{year}}</h1>
     {%for game in games%}
-        <p><a href="\view_game\{{game['id']}}">{{game['title']}}</a></p>
+        <p><a href="\view_game\{{game['id']}}">{{game['away']}} at {{game['home']}}</a></p>
     {%endfor%}
 </div>
 <div>
