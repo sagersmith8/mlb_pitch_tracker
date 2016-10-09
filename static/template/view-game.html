@@ -2,58 +2,73 @@
 
 {%block title%}{{away}} at {{home}} on {{month}}/{{day}}/{{year}}{%endblock%}
 {%block extrastyle%}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="/css/game-view.css" rel="stylesheet">
 {%endblock%}
 
 {%block body%}
-   <div class="inning_container">
+   <div class="container">
        <h1>{{away}} at {{home}}</h1>
-
+       <div class="panel-group" id="accordion">
        {%for inning in game_data['innings']%}
            {%set inning_num = loop.index%}
-           <h2>Inning {{loop.index}}</h2>
-           <div class="inning">
-               <h3>Top</h3>
-               {%for atbat in inning['top']%}
-                   <div class="atbat_container">
-                       <h4>
-                           {{game_data['away']['players'][atbat['batter']]['first']}}
-                           {{game_data['away']['players'][atbat['batter']]['last']}}
-                            hitting against
-                           {{game_data['home']['players'][atbat['pitcher']]['first']}}
-                           {{game_data['home']['players'][atbat['pitcher']]['last']}}
-                       </h4>
-                       <div class="atbat">
-                           <div class="pitches">
-                               {{atbat['pitches']}}
+           <div class="panel panel-default">
+               <div class="panel_heading">
+                   <h2 class="panel-title">
+                       <a data-toggle="collapse" data-parent="#accordion" href="#{{game_id}}-t{{inning_num}}">
+                           Inning {{loop.index}}
+                       </a>
+                   </h2>
+               </div>
+               <div id="{{game_id}}-t{{inning_num}}" class="panel-collapse collapse in">
+                   <div class="inning">
+                   <h3>Top</h3>
+                       {%for atbat in inning['top']%}
+                           <div class="atbat_container">
+                               <h4>
+                                   {{game_data['away']['players'][atbat['batter']]['first']}}
+                                   {{game_data['away']['players'][atbat['batter']]['last']}}
+                                    hitting against
+                                   {{game_data['home']['players'][atbat['pitcher']]['first']}}
+                                   {{game_data['home']['players'][atbat['pitcher']]['last']}}
+                               </h4>
+                               <div class="atbat">
+                                   <div class="pitches">
+                                       {{atbat['pitches']}}
+                                   </div>
+                                   <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                               </div>
                            </div>
-                           <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
-                       </div>
+                       {%endfor%}
                    </div>
-               {%endfor%}
-           </div>
 
-           <div class="inning">
-               <h3>Bottom</h3>
-               {%for atbat in inning['bottom']%}
-                   <div class="atbat_container">
-                       <h4>
-                           {{game_data['home']['players'][atbat['batter']]['first']}}
-                           {{game_data['home']['players'][atbat['batter']]['last']}}
-                            hitting against
-                           {{game_data['away']['players'][atbat['pitcher']]['first']}}
-                           {{game_data['away']['players'][atbat['pitcher']]['last']}}
-                       </h4>
-                       <div class="atbat">
-                            <div class="pitches">
-                               {{atbat['pitches']}}
+                   <div class="inning">
+                       <h3>Bottom</h3>
+                       {%for atbat in inning['bottom']%}
+                           <div class="atbat_container">
+                               <h4>
+                                   {{game_data['home']['players'][atbat['batter']]['first']}}
+                                   {{game_data['home']['players'][atbat['batter']]['last']}}
+                                    hitting against
+                                   {{game_data['away']['players'][atbat['pitcher']]['first']}}
+                                   {{game_data['away']['players'][atbat['pitcher']]['last']}}
+                               </h4>
+                               <div class="atbat">
+                                    <div class="pitches">
+                                       {{atbat['pitches']}}
+                                   </div>
+                                   <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                               </div>
                            </div>
-                           <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
-                       </div>
+                       {%endfor%}
                    </div>
-               {%endfor%}
-           </div>
+                </div>
+            </div>
        {%endfor%}
+       </div>
    </div>
 {%endblock%}
 {% block extrascripts %}
