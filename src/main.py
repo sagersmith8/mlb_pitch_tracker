@@ -1,10 +1,11 @@
 import logging
-
+from datetime import datetime
 import bottle
 from bottle import route
 from core import respond
 import json
 from generate_test_game import generate_game
+import pytz
 
 bottle.debug(True)
 app = bottle.default_app()
@@ -12,7 +13,11 @@ app = bottle.default_app()
 
 @route('/')
 def home():
-    msg = "Sage and Bridger will add stuff here."
+    dt = datetime.now(pytz.utc)
+    tz = 'US/Pacific'
+    dt = dt.astimezone(pytz.timezone(tz))
+
+    msg = "Sage and Bridger will add stuff here. Date: {}".format(dt)
     logging.info('someone hit the home page')  # app engine log.
     return respond('index.html', {'msg': msg})
 
