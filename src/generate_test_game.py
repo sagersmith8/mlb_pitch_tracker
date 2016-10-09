@@ -43,7 +43,8 @@ def generate_pitch():
 def generate_game_title():
     return {
         'id': random.randint(100000, 999999),
-        'title': '{} at {}'.format(generate_name(), generate_name())
+        'home': generate_name(),
+        'away': generate_name()
     }
 
 
@@ -87,7 +88,7 @@ def generate_at_bat():
 
     return {
         'pitcher': generate_name(),
-        'hitter': generate_name(),
+        'batter': generate_name(),
         'pitches': pitches,
         STRIKE_OUT: strike_out
     }
@@ -119,7 +120,7 @@ def generate_game():
         'year': random.randint(1909, 2016),
         'home': generate_name(),
         'away': generate_name(),
-        'game_data': [generate_inning() for _ in xrange(9)]
+        'innings': [generate_inning() for _ in xrange(9)]
     }
 
 
