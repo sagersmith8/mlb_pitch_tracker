@@ -4,6 +4,7 @@ body{
     padding-top: 89px;
     background-image:url("../img/baseball_stadium_4060x2680_wallpaper_Wallpaper_4060x2680_www.wallpaperswa.com.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #navbar-inner{
@@ -14,6 +15,7 @@ body{
     background-color: black;
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .inning_container{
