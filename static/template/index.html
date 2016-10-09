@@ -2,18 +2,22 @@
 
 {%block title%}Baseball Notifier{%endblock%}
 
+{%block extrastyle%}
+<link href="/css/index.css" rel="stylesheet">
+{%endblock%}
+
 {%block body%}
 <div>
     <h1>Games for {{month}}/{{day}}/{{year}}</h1>
     {%for game in games%}
-        <p><a href="\view_game\{{game['id']}}">{{game['title']}}</a></p>
+        <p><a href="\view_game\{{game['id']}}">{{game['away']}} at {{game['home']}}</a></p>
     {%endfor%}
 </div>
 <div>
     <h2>Jump To</h2>
     <form action="\" method="post">
   <input type="date" name="date" value="{{year}}-{{month}}-{{day}}">
-  <input type="submit">
+  <input type="submit" id="submit">
 </form>
 </form>
 </div>

@@ -1,5 +1,4 @@
-from lxml import etree
-import requests
+from xml.etree import ElementTree
 
 DATA_PREFIX = 'http://gd2.mlb.com/components/game/mlb'
 GAME_KEYS = ['id', 'status']
@@ -8,13 +7,32 @@ AT_BAT_KEYS = ['batter', 'pitcher', 'des', 'p_throws', 'stand']
 PLAYER_KEYS = ['id', 'position', 'bat_order', 'first', 'last']
 VENUE_KEYS = ['venue']
 
+PITCH_MAPPED_KEYS = {
+    'pitch_type': lambda x: PITCH_TYPE.get(x, 'unknown')
+}
+
+PITCH_TYPE = {
+    'CH': 'changeup',
+    'CU': 'cutter',
+    'EP': 'eephus',
+    'FA': 'fastball',
+    'FC': 'fastball cutter',
+    'FS': 'splitter',
+    'FF': 'four-seam fastball',
+    'FT': 'two-seam fastball',
+    'KC': 'knuckle curve',
+    'KN': 'knuckleball',
+    'PO': 'pitch out',
+    'SI': 'sinker',
+    'SL': 'slider',
+}
+
 def get_game(game_id):
     game_loc = game_path(game_id)
     game = parse_game(grab_asset('{}/players.xml'.format(game_loc)))
     if not game:
         return game
     game['innings'] = parse_innings(grab_asset('{}/inning/inning_all.xml'.format(game_loc)))
-
     return game
 
 def game_path(game_id):
@@ -26,7 +44,7 @@ def parse_innings(inning_xml):
     if not inning_xml:
         return None
 
-    innings = etree.fromstring(inning_xml)
+    innings = ElementTree.fromstring(inning_xml)
 
     inning_list = []
     for inning in innings:
@@ -42,10 +60,14 @@ def parse_innings(inning_xml):
                     pitches = []
                     for pitch in at_bat:
                         if pitch.tag == 'pitch':
-                            pitches.append(filter_dict(
-                                dict(pitch.items()),
-                                PITCH_KEYS
-                            ))
+                            pitches.append(
+                                map_dict(
+                                    filter_dict(
+                                        dict(pitch.items()),
+                                        PITCH_KEYS),
+                                    PITCH_MAPPED_KEYS
+                                )
+                            )
                     at_bat_data['pitches'] = pitches
                     at_bats.append(at_bat_data)
             inning_data[team_inning.tag] = at_bats
@@ -57,7 +79,7 @@ def parse_game(game_xml):
     if not game_xml:
         return None
 
-    game = etree.fromstring(game_xml)
+    game = ElementTree.fromstring(game_xml)
     game_map = filter_dict(
         dict(game.items()),
         VENUE_KEYS)
@@ -93,7 +115,7 @@ def parse_game_list(scoreboard_xml):
     if not scoreboard_xml:
         return None
 
-    games = etree.fromstring(scoreboard_xml)
+    games = ElementTree.fromstring(scoreboard_xml)
 
     game_list = []
     for game_info in games:
@@ -113,9 +135,16 @@ def parse_game_list(scoreboard_xml):
 def filter_dict(_dict, keys):
     return {key: _dict[key] for key in keys if key in _dict}
 
+def map_dict(_dict, mapped_keys):
+    for key, mapping_fcn in mapped_keys.iteritems():
+        if key in _dict:
+            _dict[key] = mapping_fcn(_dict[key])
+    return _dict
+
 def grab_asset(asset):
-    response = requests.get("{base}/{asset}".format(base=DATA_PREFIX, asset=asset))
-    return response.content if response else None
+    from google.appengine.api import urlfetch
+    response = urlfetch.fetch("{base}/{asset}".format(base=DATA_PREFIX, asset=asset))
+    return response.content if response.status_code == 200 else None
 
 if __name__ == '__main__':
     import sys
