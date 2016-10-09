@@ -2,6 +2,10 @@
 
 {%block title%}Baseball Notifier{%endblock%}
 
+{%block extrastyle%}
+<link href="/css/index.css" rel="stylesheet">
+{%endblock%}
+
 {%block body%}
 <div>
     <h1>Games for {{month}}/{{day}}/{{year}}</h1>
@@ -13,7 +17,7 @@
     <h2>Jump To</h2>
     <form action="\" method="post">
   <input type="date" name="date" value="{{year}}-{{month}}-{{day}}">
-  <input type="submit">
+  <input type="submit" id="submit">
 </form>
 </form>
 </div>
