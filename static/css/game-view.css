@@ -1,0 +1,11 @@
+.inning_container{
+    display: table;
+}
+
+.inning{
+    display: table-row;
+}
+
+.atbat{
+    display: table
+}

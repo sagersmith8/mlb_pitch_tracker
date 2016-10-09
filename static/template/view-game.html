@@ -1,0 +1,39 @@
+{%extends "base.html"%}
+
+{%block title%}{{away}} at {{home}} on {{month}}/{{day}}/{{year}}{%endblock%}
+{%block extrastyle%}
+<link href="/css/game-view.css" rel="stylesheet">
+{%endblock%}
+
+{%block body%}
+   <div class="inning_container">
+       <h1>{{away}} @ {{home}} on {{month}}/{{day}}/{{year}}</h1>
+
+       {%for inning in game_data['game_data']%}
+           <h2>Inning {{loop.index}}</h2>
+           <div class="inning">
+               <h3>Top</h3>
+               {%for atbat in inning['top']%}
+                   <div class="atbat">
+                       <h4>
+                           {{atbat['hitter']}} hitting against {{atbat['pitcher']}}
+                       </h4>
+                       {{atbat['pitches']}}
+                   </div>
+               {%endfor%}
+           </div>
+
+           <div class="inning">
+               <h3>Bottom</h3>
+               {%for atbat in inning['bottom']%}
+                   <div class="atbat">
+                       <h4>
+                           {{atbat['hitter']}} hitting against {{atbat['pitcher']}}
+                       </h4>
+                       {{atbat['pitches']}}
+                   </div>
+               {%endfor%}
+           </div>
+       {%endfor%}
+   </div>
+{%endblock%}
