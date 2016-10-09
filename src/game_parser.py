@@ -1,5 +1,5 @@
 from xml.etree import ElementTree
-import requests
+from google.appengine.api import urlfetch
 
 DATA_PREFIX = 'http://gd2.mlb.com/components/game/mlb'
 GAME_KEYS = ['id', 'status']
@@ -143,8 +143,8 @@ def map_dict(_dict, mapped_keys):
     return _dict
 
 def grab_asset(asset):
-    response = requests.get("{base}/{asset}".format(base=DATA_PREFIX, asset=asset))
-    return response.content if response else None
+    response = urlfetch.fetch("{base}/{asset}".format(base=DATA_PREFIX, asset=asset))
+    return response.content if response.status_code == 200 else None
 
 if __name__ == '__main__':
     import sys
