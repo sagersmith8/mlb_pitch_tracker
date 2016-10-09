@@ -1,5 +1,6 @@
 import json
 import random
+import string
 
 STRIKE_WIDTH = .75
 STRIKE_BOTTOM = 2
@@ -39,6 +40,18 @@ def generate_pitch():
     }
 
 
+def generate_name():
+    name = random.choice(string.ascii_uppercase)
+    for _ in range(random.randint(2, 8)):
+        name += random.choice(string.ascii_lowercase)
+
+    return name
+
+
+def generate_full_name():
+    return '{} {}'.format(generate_name(), generate_name())
+
+
 def generate_at_bat():
     pitches = []
     strike_count = 0
@@ -59,6 +72,8 @@ def generate_at_bat():
             break
 
     return {
+        'pitcher': generate_name(),
+        'hitter': generate_name(),
         'pitches': pitches,
         STRIKE_OUT: strike_out
     }
@@ -84,7 +99,11 @@ def generate_inning():
 
 
 def generate_game():
-    return [generate_inning() for _ in xrange(9)]
+    return {
+        'home': 'CUBS',
+        'away': 'GIANTS',
+        'game_data': [generate_inning() for _ in xrange(9)]
+    }
 
 
 if __name__ == '__main__':
