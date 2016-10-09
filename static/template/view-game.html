@@ -47,7 +47,9 @@
                                    </h4>
                                </div>
                                <div id="{{game_id}}-t{{inning_num}}-{{loop.index}}p" class="panel-collapse collapse">
-                                   <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                                   <div class="atbat">
+                                       <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                                   </div>
                                </div>
                            </div>
                        {%endfor%}
@@ -76,7 +78,9 @@
                                    </h4>
                                </div>
                                <div id="{{game_id}}-b{{inning_num}}-{{loop.index}}p" class="panel-collapse collapse">
-                                   <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                                   <div class="atbat">
+                                       <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                                   </div>
                                </div>
                            </div>
                        {%endfor%}
