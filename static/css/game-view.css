@@ -37,10 +37,22 @@ body{
     background-repeat: no-repeat;
     background-size: cover;*/
     text-align: center;
+    position: relative;
 }
 
 .strikezone{
     /*border:1px solid black;*/
     width: 500px;
     height: 500px;
+}
+
+.link{
+    background-color: #000;
+    color: #000;
+    opacity: 0;
+    text-decoration:none;
+    width:500px;
+    height:500px;
+    position: absolute;
+    margin-bottom:1px;
 }
