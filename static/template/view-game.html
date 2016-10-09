@@ -16,7 +16,11 @@
                {%for atbat in inning['top']%}
                    <div class="atbat">
                        <h4>
-                           {{atbat['batter']}} hitting against {{atbat['pitcher']}}
+                           {{game_data['away']['players'][atbat['batter']]['first']}} 
+                           {{game_data['away']['players'][atbat['batter']]['last']}}			   
+                            hitting against 
+                           {{game_data['home']['players'][atbat['pitcher']]['first']}} 
+                           {{game_data['home']['players'][atbat['pitcher']]['last']}}
                        </h4>
                        {{atbat['pitches']}}
                    </div>
@@ -28,7 +32,11 @@
                {%for atbat in inning['bottom']%}
                    <div class="atbat">
                        <h4>
-                           {{atbat['batter']}} hitting against {{atbat['pitcher']}}
+                           {{game_data['home']['players'][atbat['batter']]['first']}} 
+                           {{game_data['home']['players'][atbat['batter']]['last']}}			   
+                            hitting against 
+                           {{game_data['away']['players'][atbat['pitcher']]['first']}} 
+                           {{game_data['away']['players'][atbat['pitcher']]['last']}}
                        </h4>
                        {{atbat['pitches']}}
                    </div>
