@@ -23,6 +23,4 @@ function draw_strikezone(id, pitches) {
         ctx.fill();
 
     }
-    //ctx.font="20px Georgia";
-    //ctx.fillText("Hi", 0, 0);
 }
