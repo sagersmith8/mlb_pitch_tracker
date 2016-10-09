@@ -9,14 +9,14 @@
    <div class="inning_container">
        <h1>{{away}} at {{home}}</h1>
 
-       {%for inning in game_data['game_data']%}
+       {%for inning in game_data['innings']%}
            <h2>Inning {{loop.index}}</h2>
            <div class="inning">
                <h3>Top</h3>
                {%for atbat in inning['top']%}
                    <div class="atbat">
                        <h4>
-                           {{atbat['hitter']}} hitting against {{atbat['pitcher']}}
+                           {{atbat['batter']}} hitting against {{atbat['pitcher']}}
                        </h4>
                        {{atbat['pitches']}}
                    </div>
@@ -28,7 +28,7 @@
                {%for atbat in inning['bottom']%}
                    <div class="atbat">
                        <h4>
-                           {{atbat['hitter']}} hitting against {{atbat['pitcher']}}
+                           {{atbat['batter']}} hitting against {{atbat['pitcher']}}
                        </h4>
                        {{atbat['pitches']}}
                    </div>
