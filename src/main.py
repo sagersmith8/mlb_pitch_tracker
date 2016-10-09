@@ -43,15 +43,16 @@ def home(games=None):
 @route('/view_game/<game_id>/')
 def view_game(game_id):
     game = game_parser.get_game(game_id)
+    datedict = game_parser.extract_date(game_id)
 
     return respond(
         'view-game.html',
         {
             'home': game['home']['name'],
             'away': game['away']['name'],
-            'day': game['day'],
-            'month': game['month'],
-            'year': game['year'],
+            'day': datedict['day'],
+            'month': datedict['month'],
+            'year': datedict['year'],
             'game_data': game
         }
     )

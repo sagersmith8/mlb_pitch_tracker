@@ -14,10 +14,6 @@ def get_game(game_id):
     if not game:
         return game
     game['innings'] = parse_innings(grab_asset('{}/inning/inning_all.xml'.format(game_loc)))
-    date_dict = extract_date(game_id)
-    game['day'] = date_dict['day']
-    game['month'] = date_dict['month']
-    game['year'] = date_dict['year']
     return game
 
 def game_path(game_id):
