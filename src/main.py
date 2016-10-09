@@ -3,7 +3,6 @@ from datetime import datetime
 import bottle
 from bottle import route, post
 from core import respond
-from generate_test_game import generate_game, generate_games
 import pytz
 
 import game_parser
