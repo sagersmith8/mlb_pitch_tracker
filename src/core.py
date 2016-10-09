@@ -1,5 +1,4 @@
 import os
-import logging
 import jinja2
 
 JINJA_ENVIRONMENT = jinja2.Environment(
