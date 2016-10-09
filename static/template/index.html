@@ -1,7 +1,20 @@
 {%extends "base.html"%}
 
-{%block title%}Baseball Notifier - Index{%endblock%}
+{%block title%}Baseball Notifier{%endblock%}
 
 {%block body%}
-{% if msg %}{{msg}}{% else %}Other message {% endif %}
+<div>
+    <h1>Games for {{month}}/{{day}}/{{year}}</h1>
+    {%for game in games%}
+        <p><a href="\view_game\{{game['id']}}">{{game['title']}}</a></p>
+    {%endfor%}
+</div>
+<div>
+    <h2>Jump To</h2>
+    <form action="\" method="post">
+  <input type="date" name="date" value="{{year}}-{{month}}-{{day}}">
+  <input type="submit">
+</form>
+</form>
+</div>
 {%endblock%}
