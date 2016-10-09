@@ -2,14 +2,11 @@
 
 {%block title%}{{away}} at {{home}} on {{month}}/{{day}}/{{year}}{%endblock%}
 {%block extrastyle%}
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link href="/css/game-view.css" rel="stylesheet">
 {%endblock%}
 
 {%block body%}
+   <img id="home_plate" src="/img/home_plate_adjusted.png" width="0" height="0">
 
    <h1>{{away}} at {{home}}</h1>
    <div class="panel-group" id="accordion_innings">
@@ -48,7 +45,7 @@
                            </div>
                            <div id="{{game_id}}-t{{inning_num}}-{{loop.index}}p" class="panel-collapse collapse">
                                <div class="atbat">
-                                   <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                                   <canvas id="{{game_id}}-t{{inning_num}}-{{loop.index}}" width="500" height="500" class="strikezone"></canvas>
                                </div>
                            </div>
                        </div>
@@ -79,7 +76,7 @@
                            </div>
                            <div id="{{game_id}}-b{{inning_num}}-{{loop.index}}p" class="panel-collapse collapse">
                                <div class="atbat">
-                                   <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone"></canvas>
+                                   <canvas id="{{game_id}}-b{{inning_num}}-{{loop.index}}" width="500" height="500" class="strikezone"></canvas>
                                </div>
                            </div>
                        </div>
@@ -95,10 +92,22 @@
 {% block extrascripts %}
 <script src="/js/draw_strikezone.js"></script>
 <script type="text/javascript">
-    var pitches = {{game_data['innings'][-1]['top'][0]['pitches'] | safe}};
-    draw_strikezone(
-            "{{game_id}}-t1-1",
-            pitches
-    );
+    var game = {{game_data['innings'] | safe}};
+    var game_id = "{{game_id}}";
+
+    for(var inning = 1; inning <= game.length; inning++) {
+        for(var atbat = 1; atbat <= game[inning-1]['top'].length; atbat++) {
+            draw_strikezone(
+                    game_id + "-t" + inning + "-" + atbat,
+                    game[inning-1]['top'][atbat-1]['pitches']
+            );
+        }
+        for(var atbat = 1; atbat <= game[inning-1]['bottom'].length; atbat++) {
+            draw_strikezone(
+                    game_id + "-b" + inning + "-" + atbat,
+                    game[inning-1]['bottom'][atbat-1]['pitches']
+            );
+        }
+    }
 </script>
 {% endblock %}

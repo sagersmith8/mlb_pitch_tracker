@@ -4,6 +4,7 @@ body{
     padding-top: 89px;
     background-image:url("../img/baseball_stadium_4060x2680_wallpaper_Wallpaper_4060x2680_www.wallpaperswa.com.jpg");
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #navbar-inner{
@@ -14,10 +15,12 @@ body{
     background-color: black;
     background: rgba(0, 0, 0, 0.8);
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .inning_container{
     display: table;
+    margin: auto;
     text-align: center;
 }
 
@@ -30,17 +33,14 @@ body{
 }
 
 .atbat{
-    height: 500px;
-    background-image: url("/img/background.svg");
+    /*background-image: url('../img/home_plate.jpg');
     background-repeat: no-repeat;
+    background-size: cover;*/
     text-align: center;
 }
 
 .strikezone{
-    border:1px solid black;
-    display: inline;
-}
-
-.pitches{
-    display: none;
+    /*border:1px solid black;*/
+    width: 500px;
+    height: 500px;
 }
