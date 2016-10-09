@@ -1,10 +1,12 @@
 from datetime import datetime
 
 import bottle
-from bottle import route, post
+from os.path import dirname
+from bottle import route, post, static_file
 from core import respond
 from generate_test_game import generate_game, generate_games
 import pytz
+import json
 
 bottle.debug(True)
 app = bottle.default_app()
@@ -52,6 +54,7 @@ def view_game(game_id):
             'day': game['day'],
             'month': game['month'],
             'year': game['year'],
+            'game_id': game_id,
             'game_data': generate_game()
         }
     )

@@ -1,11 +1,26 @@
 .inning_container{
     display: table;
+    text-align: center;
 }
 
 .inning{
     display: table-row;
 }
 
+.atbat_container{
+    #display: table-cell;
+}
+
 .atbat{
-    display: table
+    height: 500px;
+    background-image: url("/img/background.svg");
+    background-repeat: no-repeat;
+}
+
+.strikezone{
+    border:1px solid black;
+}
+
+.pitches{
+    display: none;
 }

@@ -10,15 +10,23 @@
        <h1>{{away}} at {{home}}</h1>
 
        {%for inning in game_data['game_data']%}
+           {%set inning_num = loop.index%}
            <h2>Inning {{loop.index}}</h2>
            <div class="inning">
                <h3>Top</h3>
                {%for atbat in inning['top']%}
-                   <div class="atbat">
+                   <div class="atbat_container">
                        <h4>
                            {{atbat['hitter']}} hitting against {{atbat['pitcher']}}
                        </h4>
-                       {{atbat['pitches']}}
+                       <div class="atbat">
+                           <div class="pitches">
+                               {{atbat['pitches']}}
+                           </div>
+                           <canvas id="{{game_id}}-top{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone">
+
+                           </canvas>
+                       </div>
                    </div>
                {%endfor%}
            </div>
@@ -26,14 +34,31 @@
            <div class="inning">
                <h3>Bottom</h3>
                {%for atbat in inning['bottom']%}
-                   <div class="atbat">
+                   <div class="atbat_container">
                        <h4>
                            {{atbat['hitter']}} hitting against {{atbat['pitcher']}}
                        </h4>
-                       {{atbat['pitches']}}
+                       <div class="atbat">
+                            <div class="pitches">
+                               {{atbat['pitches']}}
+                           </div>
+                           <canvas id="{{game_id}}-bot{{inning_num}}-{{loop.index}}" width="100" height="100" class="strikezone">
+
+                           </canvas>
+                       </div>
                    </div>
                {%endfor%}
            </div>
        {%endfor%}
    </div>
 {%endblock%}
+{% block extrascripts %}
+<script src="/js/draw_strikezone.js"></script>
+<script type="text/javascript">
+    var pitches = {{game_data['game_data'][0]['top'][0]['pitches'] | safe}};
+    draw_strikezone(
+            "{{game_id}}-top1-1",
+            pitches
+    );
+</script>
+{% endblock %}
