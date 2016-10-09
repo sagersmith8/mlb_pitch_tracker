@@ -4,7 +4,7 @@ import requests
 DATA_PREFIX = 'http://gd2.mlb.com/components/game/mlb'
 GAME_KEYS = ['id', 'status']
 PITCH_KEYS = ['nasty', 'sz_top', 'sz_bot', 'px', 'pz', 'start_speed', 'type', 'des', 'pitch_type']
-AT_BAT_KEYS = ['batter', 'pitcher', 'des']
+AT_BAT_KEYS = ['batter', 'pitcher', 'des', 'p_throws', 'stand']
 PLAYER_KEYS = ['id', 'position', 'bat_order', 'first', 'last']
 VENUE_KEYS = ['venue']
 
