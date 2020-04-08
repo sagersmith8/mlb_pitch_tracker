@@ -1,8 +1,8 @@
 function draw_strikezone(id, pitches) {
     var c = document.getElementById(id);
-    var background_img = document.getElementById('home_plate')
+    var background_img = document.getElementById('home_plate');
     var ctx = c.getContext("2d");
-    var w=c.width
+    var w=c.width;
 
     var mw = w/2;
     var box_width = w - mw;
